@@ -81,6 +81,9 @@ footer {
   
 }
 
+.col-3 {
+  width: 50%;
+}
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
@@ -102,6 +105,10 @@ footer {
 
   footer {
     background-color: #ff0000;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
